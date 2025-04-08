@@ -1,0 +1,76 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+    padding-bottom: 25px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+/* Estilo para el enlace activo */
+nav ul li a.active {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+/* Botón Contact */
+.contact-btn {
+    border: 2px solid black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    background: black;
+    color: white;
+}

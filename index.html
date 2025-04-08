@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClientSo - Soluciones Empresariales</title>
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="container">
+      <h1 class="logo">CLIENTSO</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto" class="contact-btn">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>ClientSo</h2>
+      <p>Optimiza la gestión de tu empresa con ClientSo</p>
+      <a href="#servicios" class="btn">VER SERVICIOS</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="sobre-nosotros" class="about-section">
+    <div class="about-content">
+      <div class="about-text">
+        <h3 class="subtitle">OPERACIONES OPTIMIZADAS</h3>
+        <h2 class="title">Trabajo en equipo eficiente para el éxito</h2>
+        <p>
+          ClientSo opera con cinco departamentos funcionales: Gerencia, TI, Recursos Humanos, Ventas y Contabilidad.  
+          Nuestra infraestructura de red mejora la colaboración mediante carpetas compartidas diseñadas para cada departamento,  
+          junto con una carpeta pública que permite a todos los usuarios leer y otorga acceso exclusivo de escritura al área de TI.  
+          Ubicados en San José, CR, priorizamos la eficiencia y el trabajo en equipo, asegurando que nuestras operaciones  
+          funcionen de manera fluida y efectiva para satisfacer las necesidades de nuestros clientes.
+        </p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+      </div>
+      <div class="about-image">
+        <img src="images/teamwork.jpg" alt="Teamwork" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="servicios" class="services-section">
+    <h3 class="subtitle">NUESTRA EXPERIENCIA</h3>
+    <h2 class="title">Impulsamos resultados a través de la colaboración</h2>
+
+    <div class="services-carousel">
+      <div class="services-container">
+        <!-- Card 1 -->
+        <div class="service-card">
+          <img src="images/gestionempresarial.jpg" alt="Gestión Empresarial" />
+          <div class="service-content">
+            <h3 class="service-title">Gestión Empresarial <span>→</span></h3>
+            <p>Optimiza tus operaciones con nuestras soluciones de gestión empresarial.</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="service-card">
+          <img src="images/itsupport.jpg" alt="Soporte TI" />
+          <div class="service-content">
+            <h3 class="service-title">Soporte TI <span>→</span></h3>
+            <p>Asegura operaciones sin interrupciones con nuestro soporte técnico dedicado.</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="service-card">
+          <img src="images/ventas.jpg" alt="Optimización de Ventas" />
+          <div class="service-content">
+            <h3 class="service-title">Optimización de Ventas <span>→</span></h3>
+            <p>Mejora el rendimiento de ventas con nuestras estrategias avanzadas.</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="service-card">
+          <img src="images/recursoshumanos.jpg" alt="Recursos Humanos" />
+          <div class="service-content">
+            <h3 class="service-title">Recursos Humanos <span>→</span></h3>
+            <p>Potencia tu equipo con nuestras soluciones de reclutamiento y gestión de talento.</p>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="service-card">
+          <img src="images/contabilidad.jpg" alt="Contabilidad" />
+          <div class="service-content">
+            <h3 class="service-title">Contabilidad <span>→</span></h3>
+            <p>Administra tus finanzas de manera eficiente con nuestras herramientas contables.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO -->
+<section id="contacto" class="contact-section">
+    <div class="contact-container">
+      <!-- Formulario -->
+      <div class="contact-form">
+        <h3 class="subtitle">PONTE EN CONTACTO</h3>
+        <h2 class="title">¡Nos encantaría escucharte!</h2>
+  
+        <form id="contact-form">
+          <label for="name">Nombre *</label>
+          <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+  
+          <label for="email">Correo Electrónico *</label>
+          <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+  
+          <label for="phone">Teléfono *</label>
+          <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required>
+  
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..."></textarea>
+  
+          <div class="checkbox-container">
+            <input type="checkbox" id="consent" required>
+            <label for="consent">Acepto que este sitio almacene mi información para responder mi consulta. *</label>
+          </div>
+  
+          <button type="submit" class="submit-btn">ENVIAR</button>
+        </form>
+      </div>
+  
+      <!-- Información de Contacto -->
+      <div class="contact-info">
+        <h3 class="info-title">Información de contacto</h3>
+        <p>📧 <a href="mailto:clientso@gmail.com">clientso@gmail.com</a></p>
+  
+        <h3 class="info-title">Ubicación</h3>
+        <p>📍 <a href="https://maps.google.com?q=San+José,+CR" target="_blank">San José, CR</a></p>
+  
+        <h3 class="info-title">Horario</h3>
+        <ul class="hours">
+          <li><strong>Lunes - Viernes:</strong> 9:00 AM - 10:00 PM</li>
+          <li><strong>Sábado:</strong> 9:00 AM - 6:00 PM</li>
+          <li><strong>Domingo:</strong> 9:00 AM - 12:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+        <!-- MODAL DE SERVICIO -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modal-image" src="" alt="Servicio" />
+            <div class="modal-text">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+  <!-- FOOTER -->
+<footer>
+    <p>&copy; 2025 ClientSo. Todos los derechos reservados.</p>
+</footer>
+
+<script src="js/services.js"></script>
+<script src="js/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+/* Sección de contacto */
+.contact-section {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor de contacto */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 100%;
+    gap: 50px;
+}
+
+/* Formulario */
+.contact-form {
+    flex: 2;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+/* Botón */
+.submit-btn {
+    background: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: darkgreen;
+}
+
+/* Información de contacto */
+.contact-info {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .contact-info ul {
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
