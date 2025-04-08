@@ -1,7 +1,7 @@
 /* Sección Hero */
 .hero {
     height: 100vh;
-    background: url('https://cdn.b12.io/client_media/Rad1CZW5/bd7ed94c-02db-11f0-8cbb-0242ac110002-jpeg-hero_image.jpeg') center/cover no-repeat;
+    background: url('../images/fondoprincipal.jpg')center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
